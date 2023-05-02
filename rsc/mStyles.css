@@ -2,7 +2,11 @@
 /* For screens smaller than 480px */
 @media screen and (max-width: 479px) {
     .col-sm img {
-        width: 30%; /* Set image width to 30% */
+        width: 60%; /* Set image width to 30% */
+    }
+    .card {
+        margin-bottom: 5%;
+        min-height: 15rem;
     }
 }
 
@@ -16,20 +20,35 @@
 /* For screens between 768px and 1023px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .col-sm img {
-        width: 15%; /* Set image width to 15% */
+        width: 35%; /* Set image width to 15% */
+    }
+    .card {
+        margin-bottom: 5%;
+        min-height: 15rem;
+        min-width: 30rem !important;
     }
 }
 
 /* For screens between 1024px and 1199px */
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
     .col-sm img {
-        width: 10%; /* Set image width to 10% */
+        width: 35%; /* Set image width to 10% */
+    }
+    .card {
+        margin-bottom: 5%;
+        min-height: 15rem;
+        min-width: 30rem !important;
     }
 }
 
 /* For screens larger than 1200px */
 @media screen and (min-width: 1200px) {
     .col-sm img {
-        width: 5%; /* Set image width to 5% */
+        width: 30%; /* Set image width to 5% */
+    }
+    .card {
+        margin-bottom: 5%;
+        min-height: 15rem;
+        min-width: 30rem !important;
     }
 }
