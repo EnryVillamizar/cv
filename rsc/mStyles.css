@@ -1,0 +1,35 @@
+
+/* For screens smaller than 480px */
+@media screen and (max-width: 479px) {
+    .col-sm img {
+        width: 30%; /* Set image width to 30% */
+    }
+}
+
+/* For screens between 480px and 767px */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .col-sm img {
+        width: 20%; /* Set image width to 20% */
+    }
+}
+
+/* For screens between 768px and 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .col-sm img {
+        width: 15%; /* Set image width to 15% */
+    }
+}
+
+/* For screens between 1024px and 1199px */
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .col-sm img {
+        width: 10%; /* Set image width to 10% */
+    }
+}
+
+/* For screens larger than 1200px */
+@media screen and (min-width: 1200px) {
+    .col-sm img {
+        width: 5%; /* Set image width to 5% */
+    }
+}
