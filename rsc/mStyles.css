@@ -60,12 +60,30 @@ body {
 
 /* This will apply if the viewing area is at least 1024px wide */
 @media screen and (min-width: 1024px) {
+  body {
+    font-size: medium;
+  }
+  .navbar-brand {
+    font-size: medium !important;
+  }
 }
 
 /* This will apply if the viewing area is at least 1200px wide */
 @media screen and (min-width: 1200px) {
+  body {
+    font-size: medium;
+  }
+  .navbar-brand {
+    font-size: medium !important;
+  }
 }
 
 /* This will apply if the viewing area is at least 1800px wide */
 @media screen and (min-width: 1800px) {
+  body {
+    font-size: medium;
+  }
+  .navbar-brand {
+    font-size: medium !important;
+  }
 }
