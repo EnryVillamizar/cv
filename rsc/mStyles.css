@@ -1,6 +1,7 @@
 /* Default styles first (Mobile First) */
 body {
   font-family: Arial, sans-serif;
+  font-size: medium;
   margin: 0;
   padding: 0;
 }
@@ -9,23 +10,51 @@ body {
 
 /* This will apply if the viewing area is at least 320px wide */
 @media screen and (min-width: 320px) {
+  body {
+    font-size: small;
+  }
+  .navbar-brand {
+    font-size: small !important;
+  }
 }
 
 /* This will apply if the viewing area is at least 480px wide */
 @media screen and (min-width: 480px) {
+  body {
+    font-size: small;
+  }
+  .navbar-brand {
+    font-size: small !important;
+  }
 }
 
 /* This will apply if the viewing area is at least 600px wide */
 @media screen and (min-width: 600px) {
+  body {
+    font-size: small;
+  }
+  .navbar-brand {
+    font-size: small !important;
+  }
 }
 
 /* This will apply if the viewing area is at least 768px wide */
 @media screen and (min-width: 768px) {
+  body {
+    font-size: medium;
+  }
+  .navbar-brand {
+    font-size: medium !important;
+  }
 }
 
 /* This will apply if the viewing area is at least 900px wide */
 @media screen and (min-width: 900px) {
   body {
+    font-size: x-large;
+  }
+  .navbar-brand {
+    font-size: xx-large !important;
   }
 }
 
