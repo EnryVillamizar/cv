@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./rsc/mStyles.css" />
   </head>
   <body class="bg-dark">
+    <div id="dimensions" class="bg-light"></div>
     <header>
       <nav class="navbar navbar-expand-xxl bg-body-tertiary">
         <div class="container-fluid">
@@ -80,5 +81,16 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function printDimensions() {
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        document.getElementById("dimensions").innerHTML =
+          "Screen Width: " + width + ", Screen Height: " + height;
+      }
+
+      window.addEventListener("resize", printDimensions);
+      window.addEventListener("load", printDimensions);
+    </script>
   </body>
 </html>
