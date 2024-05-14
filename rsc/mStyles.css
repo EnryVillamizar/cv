@@ -6,40 +6,9 @@ body {
   padding: 0;
 }
 
-/* Now we can add media queries for larger screens */
-
-/* This will apply if the viewing area is at least 320px wide */
-@media screen and (min-width: 320px) {
-  body {
-    font-size: small;
-  }
-  .navbar-brand {
-    font-size: small !important;
-  }
-}
-
-/* This will apply if the viewing area is at least 480px wide */
-@media screen and (min-width: 480px) {
-  body {
-    font-size: small;
-  }
-  .navbar-brand {
-    font-size: small !important;
-  }
-}
-
-/* This will apply if the viewing area is at least 600px wide */
-@media screen and (min-width: 600px) {
-  body {
-    font-size: small;
-  }
-  .navbar-brand {
-    font-size: small !important;
-  }
-}
-
-/* This will apply if the viewing area is at least 768px wide */
-@media screen and (min-width: 768px) {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Your CSS here */
   body {
     font-size: medium;
   }
@@ -48,42 +17,46 @@ body {
   }
 }
 
-/* This will apply if the viewing area is at least 900px wide */
-@media screen and (min-width: 900px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your CSS here */
+  body {
+    font-size: medium;
+  }
+  .navbar-brand {
+    font-size: medium !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your CSS here */
+  body {
+    font-size: medium;
+  }
+  .navbar-brand {
+    font-size: medium !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your CSS here */
   body {
     font-size: x-large;
   }
   .navbar-brand {
+    font-size: x-large !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Your CSS here */
+  body {
+    font-size: xx-large;
+  }
+  .navbar-brand {
     font-size: xx-large !important;
-  }
-}
-
-/* This will apply if the viewing area is at least 1024px wide */
-@media screen and (min-width: 1024px) {
-  body {
-    font-size: medium;
-  }
-  .navbar-brand {
-    font-size: medium !important;
-  }
-}
-
-/* This will apply if the viewing area is at least 1200px wide */
-@media screen and (min-width: 1200px) {
-  body {
-    font-size: medium;
-  }
-  .navbar-brand {
-    font-size: medium !important;
-  }
-}
-
-/* This will apply if the viewing area is at least 1800px wide */
-@media screen and (min-width: 1800px) {
-  body {
-    font-size: medium;
-  }
-  .navbar-brand {
-    font-size: medium !important;
   }
 }
