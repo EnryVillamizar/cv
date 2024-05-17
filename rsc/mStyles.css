@@ -1,9 +1,17 @@
+:root {
+  --customPrimary: #6a687a;
+}
 /* Default styles first (Mobile First) */
 body {
   font-family: Arial, sans-serif;
   font-size: medium;
   margin: 0;
   padding: 0;
+}
+
+.btn-primary {
+  background-color: var(--customPrimary);
+  border-color: var(--customPrimary);
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
