@@ -9,12 +9,14 @@
   --customButtonBg: #536271;
 }
 /* Default styles first (Mobile First) */
-body {
-  font-family: Arial, sans-serif;
-  font-size: medium;
-  background-color: var(--honeydew);
+html {
   margin: 0;
   padding: 0;
+}
+body {
+  background-color: var(--honeydew);
+  font-family: Arial, sans-serif;
+  font-size: medium;
 }
 
 .btn-primary {
