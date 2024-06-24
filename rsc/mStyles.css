@@ -25,6 +25,7 @@ body {
   /* background-color: var(--customSecondary); */
   background-image: linear-gradient(
     to bottom right,
+    var(--wine),
     var(--customSecondary),
     var(--gunmetal)
   );
