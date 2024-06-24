@@ -38,6 +38,12 @@ body {
   border-color: var(--customButtonBg);
 }
 
+.btn-primary:active,
+.btn-primary:hover {
+  background-color: var(--wine) !important;
+  border-color: var(--wine) !important;
+}
+
 .bg-primary {
   background-color: var(--customPrimary) !important;
 }
